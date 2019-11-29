@@ -1,9 +1,7 @@
-This is a maven project.
 
-The main class is: com.tempo.technicaltest.Launcher
 
 This project uses rulebook library (http://www.deliveredtechnologies.com/)
-The rules logic is in class: com.tempo.technicaltest.core.OrderProcessingRulesBook
+The rules logic is in class: 
 
 Implement the core logic described in http://codekata.com/kata/kata16-business-rules/ as a Java
 service whose usage is demonstrated and validated by tests. Stub dependencies to external
