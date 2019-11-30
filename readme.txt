@@ -1,12 +1,20 @@
+Le projet est à l'URL suivate: https://github.com/vrivoire/Rules-demo
 
+Cloner le projet
+Dans le répertoire du projet cloné:
+    Construire le projet:
+        mvn clean install
+
+    Lancer le projet:
+	java -jar target/rules-1.0-jar-with-dependencies.jar
 
 This project uses rulebook library (http://www.deliveredtechnologies.com/)
-The rules logic is in class: 
+The rules logic are in the class: com.vrivoire.rules.core.OrderProcessingRulesBook
 
 Implement the core logic described in http://codekata.com/kata/kata16-business-rules/ as a Java
 service whose usage is demonstrated and validated by tests. Stub dependencies to external
 systems as needed.
-1 to 2 hours is a good timebox to see where the exercise evolves to.
+
 The relevant text of the exercise is as follows:
 Imagine you're writing an order processing application for a large company. In the past, this company
 used a fairly random mixture of manual and ad-hoc automated business practices to handle orders; they
